@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f2dfc9d339.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">    
+    <title>My ToDos</title>
+</head>
+<body >
+    <div class="formContainer">
+        <header>
+            <h1>ToDo List <i class="fas fa-pencil-alt"></i></h1>
+        </header>
+        <main>            
+            <div class="formDiv">            
+                <form name="postForm">
+                    <input name="title" placeholder="Title...."/>
+                    <br>
+                    <input name="description" placeholder="Description...."/>
+                    <br>
+                    <input name="imgUrl" placeholder="Image Url...."/>
+                    <br>
+                    <input name="price" placeholder="Value...."/>
+                    <br>
+                    <button id="submit">Submit</button>
+                </form>
+                <div id="ulDiv">
+                    <ul></ul>
+                </div> 
+            </div>          
+        </main>  
+        <footer>
+            <p class="span">&copy;2020 William Morris - Web Dev Student</p>
+        </footer>
+    </div> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+    <script src="todoCRUD.js"></script>
+</body>
+</html> 
